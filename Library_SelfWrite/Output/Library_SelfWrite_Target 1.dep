@@ -1,0 +1,11 @@
+Dependencies for Project 'Library_SelfWrite', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::ARMCC
+F (.\main.c)(0x5F6200F2)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-ID:\Software\MDK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\Software\MDK\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DSTM32F10X_HD-o .\output\main.o --omf_browse .\output\main.crf --depend .\output\main.d)
+I (stm32f10x.h)(0x5F61F6FF)
+I (stm32f10x_gpio.h)(0x5F620064)
+F (.\startup_stm32f10x_hd.s)(0x559784E0)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_Target_1-ID:\Software\MDK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\Software\MDK\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 529" --pd "STM32F10X_HD SETA 1"--list .\listing\startup_stm32f10x_hd.lst --xref -o .\output\startup_stm32f10x_hd.o --depend .\output\startup_stm32f10x_hd.d)
+F (.\stm32f10x.h)(0x5F61F6FF)()
+F (.\stm32f10x_gpio.c)(0x5F61FFF3)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-ID:\Software\MDK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\Software\MDK\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DSTM32F10X_HD-o .\output\stm32f10x_gpio.o --omf_browse .\output\stm32f10x_gpio.crf --depend .\output\stm32f10x_gpio.d)
+I (stm32f10x_gpio.h)(0x5F620064)
+I (stm32f10x.h)(0x5F61F6FF)
+F (.\stm32f10x_gpio.h)(0x5F620064)()
